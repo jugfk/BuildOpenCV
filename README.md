@@ -1,6 +1,7 @@
 # OpenCV4.1을 빌드하기
 ***
 OpenCV4 를 젯슨 나노에 설치해봅시다.
+
 (1) 패키지 설치 및 업데이트하기
 ```
 sudo apt update
