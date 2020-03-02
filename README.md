@@ -65,9 +65,10 @@ sudo make install
 ```
 (8) 샘플코드 실행하기
 
+먼저 Logictech c270 USB 웹캠을 설치합니다.
+
 * 샘플 C/C++ 코드 'facedetect.cpp' 실행해보기
 
-먼저 Logictech c270 USB 웹캠을 설치합니다.
 ```
 cd opencv-4.1.0/samples/cpp
 g++ -ggdb facedetect.cpp -o facedetect `pkg-config --cflags --libs opencv4`
