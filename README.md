@@ -2,6 +2,12 @@
 ***
 OpenCV4 를 젯슨 나노에 설치해봅시다.
 
+(0) 설치 스크립트를 다운로드하기
+```
+wget https://raw.githubusercontent.com/jetsonworld/BuildOpenCV/master/18_How_To_Install_OpenCV_On_Jetson_Nano.txt
+cat 18_How_To_Install_OpenCV_On_Jetson_Nano.txt
+```
+
 (1) 패키지 설치 및 업데이트하기
 ```
 sudo apt update
