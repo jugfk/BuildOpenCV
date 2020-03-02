@@ -63,12 +63,18 @@ cmake     -D WITH_CUDA=ON \
 make -j4
 sudo make install
 ```
-(8) 샘플
+(8) 샘플코드 실행하기
 
-C/C++ 코드 'facedetect.cpp' 실행해보기
+* 샘플 C/C++ 코드 'facedetect.cpp' 실행해보기
 
 먼저 Logictech c270 USB 웹캠을 설치합니다.
 ```
 cd opencv-4.1.0/samples/cpp
 g++ -ggdb facedetect.cpp -o facedetect `pkg-config --cflags --libs opencv4`
+```
+
+* 샘플 Python3 코드 'facedetect.cpp' 실행해보기
+```
+cd opencv-4.1.0/samples/python
+python3 facedetect.py
 ```
