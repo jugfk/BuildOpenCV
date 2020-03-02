@@ -65,7 +65,7 @@ sudo make install
 ```
 (8) 샘플코드 실행하기
 
-먼저 Logictech c270 USB 웹캠을 설치합니다.
+먼저 Logictech c270 USB 웹캠을 부착시킵니다.
 
 * 샘플 C/C++ 코드 'facedetect.cpp' 실행해보기
 
