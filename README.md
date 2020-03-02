@@ -63,7 +63,9 @@ cmake     -D WITH_CUDA=ON \
 make -j4
 sudo make install
 ```
-(8) 샘플 C/C++ 코드 'facedetect.cpp' 실행해보기
+(8) 샘플
+
+C/C++ 코드 'facedetect.cpp' 실행해보기
 
 먼저 Logictech c270 USB 웹캠을 설치합니다.
 ```
