@@ -1,4 +1,12 @@
-# OpenCV4.1을 빌드하기
+# Jetson Nano 에서 OpenCV 4.1.1 사용하기
+***
+* OpenCV 버전 확인하기
+```
+dpkg -l | grep libopencv
+```
+![HowToCheckTheVersion_on_OpenCV.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/HowToCheckTheVersion_on_OpenCV.png)
+
+
 ***
 OpenCV4 를 젯슨 나노에 설치해봅시다.
 
