@@ -1,4 +1,4 @@
-# Jetson Nano 에서 OpenCV 4.1.1 하기
+# Jetson Nano 에서 OpenCV 4.1.1 설치하기
 ***
 * OpenCV 버전 확인하기
 ```
@@ -26,7 +26,7 @@ sudo apt install -y curl
 
 (2) 비디오 및 이미지포맷 관련 패키지를 설치하기
 ```
-sudo apt install -y  libjpeg-dev libpng-dev libtiff-dev 
+sudo apt install -y libjpeg-dev libpng-dev libtiff-dev 
 sudo apt install -y libavcodec-dev libavformat-dev
 sudo apt install -y libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev
 sudo apt install -y libv4l-dev v4l-utils qv4l2 v4l2ucp libdc1394-22-dev
@@ -51,7 +51,7 @@ mkdir build
 cd build
 ```
 
-(6) cmake를 이용햇 빌드하기
+(6) cmake를 이용해서 빌드하기
 ```
 cmake     -D WITH_CUDA=ON \
         -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib-4.1.0/modules \
@@ -82,7 +82,7 @@ cd opencv-4.1.0/samples/cpp
 g++ -ggdb facedetect.cpp -o facedetect `pkg-config --cflags --libs opencv4`
 ```
 
-* 샘플 Python3 코드 'facedetect.cpp' 실행해보기
+* 샘플 Python3 코드 'facedetect.py' 실행해보기
 ```
 cd opencv-4.1.0/samples/python
 python3 facedetect.py
